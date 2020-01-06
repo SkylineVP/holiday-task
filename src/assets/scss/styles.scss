@@ -1,18 +1,41 @@
 @import "footer";
-
+@import "download";
+@import "banner";
+@import "features";
+@import "work";
+@import "team";
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
   font-weight: 400;
-
   display: flex;
   flex-flow: column;
   min-height: 100vh;
+  line-height: 1.1;
+
+  color: #6c7279;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.h4, .h5, .h6, h4, h5, h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279;
+}
 
 .socialIcons, .footerItem a {
   border: 1px solid rgb(232, 236, 238);
@@ -29,7 +52,25 @@ a{
   color: inherit;
 }
 
-a:hover, a:active{
+a:hover, a:active {
 
   transition: background-color, color, 0.3s;
+}
+
+.btn {
+  margin-top: 30px;
+  background-color: #e84545;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  border: 0;
+  padding: 15px 40px;
+  border-radius: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  @media screen and (min-width: $lg) {
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }

@@ -1,0 +1,115 @@
+@import "break-points";
+@import "theme";
+
+#work {
+  padding: 0;
+}
+
+.work {
+  max-width: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px #fff;
+  min-height: 350px;
+  position: relative;
+  transition: all;
+  transition-duration: 0.5s;
+
+  img {
+    vertical-align: middle;
+    transition: all;
+    transition-duration: 0.5s;
+  }
+
+  img:target {
+    display: block;
+  }
+
+  @media screen and (min-width: $xl) {
+
+    &:hover {
+      img {
+        transform: scale(1.2);
+      }
+
+      .overlay {
+        opacity: 1;
+
+        .overlayCaption {
+          opacity: 1;
+
+          h5 {
+            opacity: 1;
+            transform: translateY(0);
+          }
+
+          p {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      }
+    }
+  }
+
+  .overlay {
+    background: rgba(232, 69, 69, 0.9);;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+
+  }
+
+  .overlayCaption {
+    position: absolute;
+    z-index: 25;
+    opacity: 0;
+    text-align: center;
+    top: 50%;
+    transition: all;
+    width: 100%;
+    transform: translateY(-50%);
+
+    h5 {
+      color: #fff;
+      opacity: 0;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 700;
+      transition: all, 0.5s;
+      margin-bottom: 5px;
+      transform: translateY(-45px);
+    }
+
+    p {
+      color: #fff;
+      margin: 0;
+      opacity: 0;
+      transition: all, 0.5s;
+      transform: translateY(45px);
+    }
+  }
+
+  a {
+    color: $accent-color;
+  }
+
+  @media screen and (min-width: $md) {
+    width: 50%;
+  }
+  @media screen and (min-width: $xl) {
+    width: 25%;
+  }
+}
+
+.workContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  @media screen and (min-width: $md) {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,120 @@
+#team {
+  padding: 100px 0;
+
+  h4 {
+    font-size: 22px;
+    color: #2d3033;
+  }
+
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 -15px;
+  @media screen and (min-width: $md) {
+    flex-direction: row;
+  }
+
+}
+
+.mediaPerson {
+  padding: 0 15px;
+  @media screen and (min-width: $md) {
+    width: 50%;
+  }
+  @media screen and (min-width: $lg) {
+
+    width: 25%;
+  }
+  @media screen and (max-width: 1024px) {
+    margin-bottom: 50px;
+  }
+}
+
+.person {
+  max-width: 270px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .personContent {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin-top: 20px;
+
+    h4 {
+      font-weight: 400;
+    }
+
+    h5 {
+      color: #e84545;
+      font-size: 13px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    @media screen and (min-width: 1024px) {
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    margin: 0 auto 50px;
+  }
+}
+
+.social {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  li {
+    margin-bottom: 5px;
+
+    a {
+      border: 1px solid #e8ecee;
+      border-radius: 2px;
+      color: #c6cacc;
+      display: block;
+      font-size: 18px;
+      height: 40px;
+      line-height: 40px;
+      margin-right: 5px;
+      text-align: center;
+      width: 40px;
+
+      span {
+        font-size: inherit;
+      }
+
+      &:hover {
+        background-color: #e84545;
+        border-color: #e84545;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.contacts {
+
+  margin-top: auto;
+}
