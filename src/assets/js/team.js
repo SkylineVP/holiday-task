@@ -68,13 +68,15 @@ function createLink(employees) {
     social.classList.add("social");
 
     for (let contactsKey in employees.contacts) {
-        console.log(employees.contacts[contactsKey]);
         const li = document.createElement('li');
+
         const a = document.createElement("a");
         a.href = employees.contacts[contactsKey];
+
         const span = document.createElement("span");
         span.classList.add("fab");
         span.classList.add(`fa-${contactsKey}`);
+
         a.appendChild(span);
         li.appendChild(a);
         social.appendChild(li);

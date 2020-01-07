@@ -4,6 +4,7 @@
 @import "features";
 @import "work";
 @import "team";
+@import "testimonials";
 body {
   font-family: sans-serif;
   font-weight: 400;
@@ -16,6 +17,7 @@ body {
 }
 
 * {
+  scroll-behavior: smooth;
   box-sizing: border-box;
 }
 
