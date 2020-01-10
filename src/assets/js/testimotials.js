@@ -17,7 +17,7 @@ radioButtons.forEach(value => {
             slides[0].classList.remove("activeSlide");
         }
     };
-    document.getElementById("testimonials").onmousemove = () => {
+    value.onmousemove = () => {
         clearInterval(startInterval)
     };// остановка прокрутки слайда при движении мышей над контейнером Testimonials
 });
@@ -34,7 +34,7 @@ const observer = new IntersectionObserver(function (entries) {//когда сл�
                     radioButtons[active.value].click();
                 }
 
-            }, 10000);
+            }, 1000);
         }
 
     }
