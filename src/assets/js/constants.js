@@ -1,0 +1,1 @@
+const BACKUP_PROFILE_URL = './assets/images/backup-profile-picture.png';

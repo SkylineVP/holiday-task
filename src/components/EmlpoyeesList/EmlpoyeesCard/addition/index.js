@@ -1,42 +1,15 @@
-getEmployees();
+import {createImage} from "../../../../utils";
+import "../../../../assets/js/constants.js";
 
-async function getEmployees() {
-    try {
-        const json = await fetch("./data/employees.json");
-        const employees = await json.json();
-        employees.forEach(value => {
-            createCardEmployees(value);
-        })
-    } catch (e) {
-    }
-}
-
-function createCardEmployees(employees) {
-    const parentContainer = document.getElementsByClassName("teamContainer")[0];
-
-    const mediaPerson = document.createElement("div");
-    mediaPerson.classList.add("mediaPerson");
-    mediaPerson.appendChild(createPerson(employees));
-
-    parentContainer.appendChild(mediaPerson);
-}
-
-function createPerson(employees) {
+export function createPerson(employee) {
     const person = document.createElement("div");
     person.classList.add("person");
-    person.appendChild(createProfileImage(employees));
-    person.appendChild(createPersonContent(employees));
-    person.appendChild(createLink(employees));
-
+    person.appendChild(createImage(employee.profilePicture, './assets/images/backup-profile-picture.png'));
+    person.appendChild(createPersonContent(employee));
+    person.appendChild(createContacts(employee));
     return person
-}
+};
 
-function createProfileImage(employees) {
-    const img = document.createElement('img');
-    img.src = employees.profilePicture;
-    return img;
-
-}
 
 function createPersonContent(employees) {
     const personContent = document.createElement('div');
@@ -58,9 +31,9 @@ function createPersonContent(employees) {
     return personContent;
 }
 
-function createLink(employees) {
-    const footerLink = document.createElement("footer");
-    footerLink.classList.add("contacts");
+function createContacts(employees) {
+    const contacts = document.createElement("footer");
+    contacts.classList.add("contacts");
 
     const social = document.createElement("ul");
     social.classList.add("social");
@@ -82,7 +55,7 @@ function createLink(employees) {
     }
 
 
-    footerLink.appendChild(social);
+    contacts.appendChild(social);
 
-    return footerLink;
+    return contacts;
 }
