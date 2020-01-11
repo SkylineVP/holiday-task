@@ -1,58 +1,52 @@
 import {createImage} from "../../../../utils";
-import "../../../../assets/js/constants.js";
+import {BACKUP_PROFILE_URL} from "../../../../Constants";
+import createContactLink from "../../../ContactLink";
 
-export function createPerson(employee) {
-    const person = document.createElement("div");
-    person.classList.add("person");
-    person.appendChild(createImage(employee.profilePicture, './assets/images/backup-profile-picture.png'));
-    person.appendChild(createPersonContent(employee));
-    person.appendChild(createContacts(employee));
-    return person
+export function createCardContent( employee ) {
+    const content = document.createElement("div");
+    content.classList.add("person");
+    content.appendChild(createImage(employee.profilePicture, BACKUP_PROFILE_URL));
+    content.appendChild(createPersonContent(employee));
+    content.appendChild(createContacts(employee));
+    return content
 };
 
 
-function createPersonContent(employees) {
+function createPersonContent( employee ) {
     const personContent = document.createElement('div');
     personContent.classList.add("personContent");
 
     const name = document.createElement("h4");
-    name.innerText = employees.name;
+    name.innerText = employee.name || "";
     personContent.appendChild(name);
 
     const role = document.createElement("h5");
     role.classList.add("role");
-    role.innerText = employees.role;
+    role.innerText = employee.role || "";
     personContent.appendChild(role);
 
     const paragraphElement = document.createElement("p");
-    paragraphElement.innerText = employees.about;
+    paragraphElement.innerText = employee.about || "";
     personContent.appendChild(paragraphElement);
 
     return personContent;
 }
 
-function createContacts(employees) {
+function createContacts( employee ) {
     const contacts = document.createElement("footer");
     contacts.classList.add("contacts");
 
     const social = document.createElement("ul");
     social.classList.add("social");
 
-    for (let contactsKey in employees.contacts) {
+    employee.contacts.forEach(( link, index ) => {
+        if (index >= 5) {
+            return 0;
+        }
         const li = document.createElement('li');
-
-        const a = document.createElement("a");
-        a.href = employees.contacts[contactsKey];
-
-        const span = document.createElement("span");
-        span.classList.add("fab");
-        span.classList.add(`fa-${contactsKey}`);
-
-        a.appendChild(span);
-        li.appendChild(a);
+        li.appendChild(createContactLink(link));
         social.appendChild(li);
-
-    }
+    });
 
 
     contacts.appendChild(social);
