@@ -3,7 +3,6 @@
 @import "banner";
 @import "features";
 @import "work";
-@import "team";
 @import "testimonials";
 body {
   font-family: sans-serif;
@@ -76,4 +75,26 @@ a:hover, a:active {
       background-color: #e8353b;
     }
   }
+}
+
+#team {
+  padding: 100px 0;
+
+  h4 {
+    font-size: 22px;
+    color: #2d3033;
+  }
+
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 -15px;
+  @media screen and (min-width: $md) {
+    flex-direction: row;
+  }
+
 }

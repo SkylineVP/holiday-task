@@ -1,7 +1,7 @@
-const picture = document.getElementsByClassName("work");
+const picturesOfWork = document.getElementsByClassName("work");
 
-for (let pictureElement of picture) {
-    pictureElement.onclick = (event) => {
+for (const pictureElement of picturesOfWork) {
+    pictureElement.onclick = ( event ) => {
         event.stopImmediatePropagation();
         const sourceImg = event.currentTarget.querySelector("img");
         const div = document.createElement("div");
