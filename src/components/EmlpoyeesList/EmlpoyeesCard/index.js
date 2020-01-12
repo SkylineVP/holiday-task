@@ -2,8 +2,10 @@ import {createCardContent} from "./addition";
 import "./styles.scss";
 
 export function createCardEmployees( employee ) {
-  const cardEmployeeContainer = document.createElement("div");
-  cardEmployeeContainer.classList.add("mediaPerson");
-  cardEmployeeContainer.appendChild(createCardContent(employee));
-  return cardEmployeeContainer;
+  const cardEmployee = document.createElement("div");
+  cardEmployee.classList.add("mediaPerson");
+
+  cardEmployee.appendChild(createCardContent(employee));
+
+  return cardEmployee;
 }

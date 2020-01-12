@@ -6,7 +6,6 @@ export default function ( link ) {
 
   const icon = document.createElement("span");
   const {hostname} = new URL(link);
-  console.log(hostname);
   if (LINKS_ICON_MAP.has(hostname)) {
     icon.classList.add(...LINKS_ICON_MAP.get(hostname));
   } else {
