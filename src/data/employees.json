@@ -1,7 +1,7 @@
 [
   {
     "name": "Ruth Wood",
-    "role": "Founder, CEO",
+    "position": "Founder, CEO",
     "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
       "https://www.facebook.com/",
@@ -14,7 +14,7 @@
   },
   {
     "name": "Timothy Reed",
-    "role": "Co-Founder, Developer",
+    "position": "Co-Founder, Developer",
     "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
       "https://www.facebook.com/",
@@ -27,7 +27,7 @@
   },
   {
     "name": "Victoria Valdez",
-    "role": "UI Designer",
+    "position": "UI Designer",
     "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,  ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
       "https://www.facebook.com/",
@@ -40,7 +40,7 @@
   },
   {
     "name": "Beverly Little",
-    "role": "Data Scientist",
+    "position": "Data Scientist",
     "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
       "https://www.facebook.com/",
@@ -53,7 +53,18 @@
   },
   {
     "name": "Beverly Little",
-    "role": "Data Scientist",
+    "position": "Data Scientist",
+    "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
+    "contacts": [
+      "https://www.facebook.com/",
+      "https://twitter.com/",
+      "https://www.linkedin.com/"
+    ],
+    "profilePicture": "./assets/images/team-4.jpg"
+  },
+  {
+    "name": "Beverly Little",
+    "position": "Data Scientist",
     "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
       "https://www.facebook.com/",
@@ -70,24 +81,7 @@
   },
   {
     "name": "Beverly Little",
-    "role": "Data Scientist",
-    "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
-    "contacts": [
-      "https://www.facebook.com/",
-      "https://twitter.com/",
-      "https://www.linkedin.com/",
-      "https://www.instagram.com/",
-      "https://dribbble.com/",
-      "https://www.tumblr.com/",
-      "https://www.tumblr.com/",
-      "https://www.tumblr.com/",
-      "https://www.tumblr.com/"
-    ],
-    "profilePicture": "./assets/images/team-4.jpg"
-  },
-  {
-    "name": "Beverly Little",
-    "role": "Data Scientist",
+    "position": "Data Scientist",
     "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
     "contacts": [
       "https://www.facebook.com/",

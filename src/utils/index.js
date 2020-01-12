@@ -1,3 +1,9 @@
+/**
+ *
+ * @param {string} url
+ * @param {object} options
+ * @returns {Promise<*>}
+ */
 export async function loadJson(url, options = {}) {
     const response = await fetch(url, options);
     return response.json();
