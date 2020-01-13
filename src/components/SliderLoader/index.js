@@ -1,5 +1,5 @@
 import {loadJson} from "../../utils";
-import createListEmployees from './../EmlpoyeesList';
+import createSlider from './../Slider';
 
 loadJson('./data/slides.json')
   .then(slides => {
