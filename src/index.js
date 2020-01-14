@@ -5,6 +5,7 @@ import './assets/js/work.js';
 import './assets/js/navigation.js';
 import './assets/js/testimotials.js';
 import './components/EmployeesListLoader';
+import './components/SliderLoader';
 
 
 
