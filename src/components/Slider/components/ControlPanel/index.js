@@ -1,3 +1,5 @@
+import createRadioButton from './Radio';
+
 export function createControlPanel( slides ) {
   const controlPanel = document.createElement("ol");
   controlPanel.classList.add("controlPanel");
@@ -6,7 +8,8 @@ export function createControlPanel( slides ) {
     if (index > 7) {
       return 0;
     }
-    controlPanel.appendChild(createRadioButton(index));
+    controlPanel.appendChild(createRadioButton(index, slides));
 
   });
+  return controlPanel
 }

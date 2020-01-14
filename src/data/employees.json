@@ -36,20 +36,7 @@
       "https://www.instagram.com/",
       "https://dribbble.com/"
     ],
-    "profilePicture": "./assets/images/team-3.jpg"
-  },
-  {
-    "name": "Beverly Little",
-    "position": "Data Scientist",
-    "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
-    "contacts": [
-      "https://www.facebook.com/",
-      "https://twitter.com/",
-      "https://www.linkedin.com/",
-      "https://www.instagram.com/",
-      "https://dribbble.com/"
-    ],
-    "profilePicture": "./assets/images/team-4.jpg"
+    "profilePicture": "./assets/images/team3.jpg"
   },
   {
     "name": "Beverly Little",
@@ -60,40 +47,6 @@
       "https://twitter.com/",
       "https://www.linkedin.com/"
     ],
-    "profilePicture": "./assets/images/team-4.jpg"
-  },
-  {
-    "name": "Beverly Little",
-    "position": "Data Scientist",
-    "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
-    "contacts": [
-      "https://www.facebook.com/",
-      "https://twitter.com/",
-      "https://www.linkedin.com/",
-      "https://www.instagram.com/",
-      "https://dribbble.com/",
-      "https://www.tumblr.com/",
-      "https://www.tumblr.com/",
-      "https://www.tumblr.com/",
-      "https://www.tumblr.com/"
-    ],
-    "profilePicture": "./assets/images/team-4.jpg"
-  },
-  {
-    "name": "Beverly Little",
-    "position": "Data Scientist",
-    "about": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.",
-    "contacts": [
-      "https://www.facebook.com/",
-      "https://twitter.com/",
-      "https://www.linkedin.com/",
-      "https://www.instagram.com/",
-      "https://dribbble.com/",
-      "https://www.tumblr.com/",
-      "https://www.tumblr.com/",
-      "https://www.tumblr.com/",
-      "https://www.tumblr.com/"
-    ],
-    "profilePicture": "./assets/images/team-4.jpg"
+    "profilePicture": "https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
   }
 ]

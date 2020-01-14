@@ -13,6 +13,7 @@ export function createCardContent( employee ) {
   return content
 }
 
+
 function createPersonContent( employee ) {
   const personContent = document.createElement('div');
   personContent.classList.add("personContent");

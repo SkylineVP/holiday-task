@@ -1,7 +1,7 @@
 [
   {
-    "imageUrl": "sdfsdfsdf",
-    "comment": "Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur....",
+    "imageUrl": "assets/images/testimonial-1.jpg",
+    "comment": "\"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui.Aenean eu leo quam...\"",
     "author": {
       "name": "Susan",
       "surname": "Sims",
@@ -9,8 +9,8 @@
     }
   },
   {
-    "imageUrl": "\"Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui.Aenean eu leo quam...\"",
-    "comment": ";sldfk; lksdl flsfd",
+    "imageUrl": "./assets/images/testimonial-2.jpg",
+    "comment": "\"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur....\"",
     "author": {
       "name": "Susan",
       "surname": "Sims",

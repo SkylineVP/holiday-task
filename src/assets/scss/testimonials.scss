@@ -1,9 +1,11 @@
 #testimonials {
   background-color: #53354a;
   position: relative;
-
   p {
     color: #fff;
+    max-height: 9.6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
     font: italic 26px "Cardo", Georgia, "Times New Roman", serif;
     @media screen and (min-width: $lg) {
       font-size: 36px;
@@ -13,9 +15,10 @@
 
 .flexSlider {
   padding-bottom: 80px;
+  zoom: 1;
   position: relative;
   @media screen and (min-width: $md) {
-    padding-bottom: 0px;
+    padding-bottom: 5px;
   }
   @media screen and (min-width: $xl) {
     padding-bottom: 40px;
@@ -30,6 +33,8 @@
   img {
     width: 100%;
     max-width: 100%;
+    max-height: 628px;
+
   }
 
   @media screen and (min-width: $lg) {
@@ -43,16 +48,17 @@
   top: 0;
   left: 0;
   width: 100%;
-  display: flex;
   flex-direction: column;
+  display: flex;
   transition: opacity;
-  transition-duration: 0.6s;
+  transition-duration: 1s;
   @media screen and (min-width: $lg) {
     flex-direction: row;
   }
 }
 
 .activeSlide {
+
   position: relative;
   opacity: 1;
 }
@@ -70,7 +76,7 @@
     text-transform: uppercase;
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: $xl) {
     padding: 100px 15% 0;
   }
 }
@@ -86,8 +92,6 @@
   align-items: center;
   @media screen and (min-width: $md) {
     width: 50%;
-
-
   }
   @media screen and (min-width: $lg) {
 
@@ -110,7 +114,7 @@ input[type=radio] {
   border-radius: 20px;
 }
 
-input[type=radio].active {
+input[type=radio].activeRadioButton {
   background: rgba(255, 255, 255, 1);
   cursor: default;
 }

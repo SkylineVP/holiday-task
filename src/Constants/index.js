@@ -1,4 +1,5 @@
 export const BACKUP_PROFILE_URL = './assets/images/backup-profile-picture.png';
+export const BACKUP_SLIDE_URL = './assets/images/office.jpg';
 export const LINKS_ICON_MAP = new Map();
 LINKS_ICON_MAP.set('www.facebook.com', ['fab', 'fa-facebook-f']);
 LINKS_ICON_MAP.set('twitter.com', ['fab', 'fa-twitter']);
