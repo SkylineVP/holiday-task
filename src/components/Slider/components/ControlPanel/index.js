@@ -1,5 +1,5 @@
 import createRadioButton from './Radio';
-
+import './styles.scss';
 export function createControlPanel( slides ) {
   const controlPanel = document.createElement("ol");
   controlPanel.classList.add("controlPanel");
