@@ -1,4 +1,4 @@
-import {createImage} from "../../../../utils";
+import {createHTMLElementWithClassList, createImage} from "../../../../utils";
 import {BACKUP_PROFILE_URL} from "../../../../Constants";
 import createContactLink from "../../../ContactLink";
 
@@ -6,7 +6,7 @@ export function createCardContent( employee ) {
   const content = document.createElement("div");
   content.classList.add("person");
 
-  content.appendChild(createImage(employee.profilePicture, BACKUP_PROFILE_URL));
+  content.appendChild(createEmployeePicture(employee));
   content.appendChild(createPersonContent(employee));
   content.appendChild(createContacts(employee));
 
@@ -14,13 +14,20 @@ export function createCardContent( employee ) {
 }
 
 
+function createEmployeePicture( {profilePicture} ) {
+  const pictureContainer = createHTMLElementWithClassList('div', 'pictureContainer');
+  pictureContainer.appendChild(createImage(profilePicture, BACKUP_PROFILE_URL))
+  return pictureContainer;
+
+}
+
 function createPersonContent( employee ) {
   const personContent = document.createElement('div');
   personContent.classList.add("personContent");
 
-  const name = document.createElement("h4");
-  name.innerText = employee.name || "";
-  personContent.appendChild(name);
+  const fullName = document.createElement("h4");
+  fullName.innerText = employee.fullName || "";
+  personContent.appendChild(fullName);
 
   const role = document.createElement("h5");
   role.classList.add("role");

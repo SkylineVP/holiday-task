@@ -47,6 +47,10 @@
   opacity: 0;
   transition: opacity 0.5s, visibility 0s 0.5s;
   line-height: 1.42;
+  @media screen and (min-width: 1024px) {
+    transition: 0s;
+
+  }
 }
 
 .primaryNav {
@@ -128,6 +132,10 @@
     transition: all;
     transition-duration: 0.3s;
     transform-origin: center;
+    @media screen and (min-width: 1024px) {
+      transition-duration: 0s;
+
+    }
   }
 
 }
