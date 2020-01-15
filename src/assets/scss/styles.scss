@@ -103,15 +103,6 @@ a:hover, a:active {
   background-color: #53354a;
   position: relative;
 
-  p {
-    color: #fff;
-    max-height: 9.6rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font: italic 26px "Cardo", Georgia, "Times New Roman", serif;
-    @media screen and (min-width: $lg) {
-      font-size: 36px;
-    }
-  }
+
 }
 
