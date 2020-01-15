@@ -18,26 +18,8 @@
     }
   },
   {
-    "imageUrl": "sdfsdfsdf",
-    "comment": ";sldfk; lksdl flsfd",
-    "author": {
-      "name": "Name",
-      "surname": "Surname",
-      "position": "Test"
-    }
-  },
-  {
-    "imageUrl": "./assets/images/testimonial-2.jpg",
-    "comment": "\"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur....\"",
-    "author": {
-      "name": "Susan",
-      "surname": "Sims",
-      "position": "Interaction Designer at XYZ"
-    }
-  },
-  {
-    "imageUrl": "./assets/images/testimonial-2.jpg",
-    "comment": "\"Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur....\"",
+    "imageUrl": "./assets/images/testimonial2.jpg",
+    "comment": "\"Cras mattis consectetur purus sit amet attis consectetur purus fermentum. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur....\"",
     "author": {
       "name": "Susan",
       "surname": "Sims",

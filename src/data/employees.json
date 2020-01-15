@@ -36,7 +36,7 @@
       "https://www.instagram.com/",
       "https://dribbble.com/"
     ],
-    "profilePicture": "./assets/images/team3.jpg"
+    "profilePicture": "./assets/images/team-3.jpg"
   },
   {
     "fullName": "Beverly Little",
@@ -45,8 +45,9 @@
     "contacts": [
       "https://www.facebook.com/",
       "https://twitter.com/",
-      "https://www.linkedin.com/"
+      "https://www.linkedin.com/",
+      "https://dribbble.com/"
     ],
-    "profilePicture": "https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+    "profilePicture": "./assets/images/team4.jpg"
   }
 ]

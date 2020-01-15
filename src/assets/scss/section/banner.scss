@@ -1,8 +1,8 @@
-@import "break-points";
-@import "header";
+@import "../addition/break-points";
+@import "../navigation/header";
 
 .banner {
-  background-image: url("../images/banner.jpg");
+  background-image: url("../../assets/images/banner.jpg");
   width: 100%;
   background-position: center top;
   background-repeat: no-repeat;
