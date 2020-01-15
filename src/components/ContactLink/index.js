@@ -3,6 +3,7 @@ import {LINKS_ICON_MAP} from "../../Constants"
 export default function ( link ) {
   const a = document.createElement("a");
   a.href = link;
+  a.target = '_blank';
 
   const icon = document.createElement("span");
   const {hostname} = new URL(link);

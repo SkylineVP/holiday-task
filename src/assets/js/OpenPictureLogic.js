@@ -29,4 +29,4 @@ for (const pictureElement of picturesOfWork) {
 function closeOpenPicture() {
   const pictureBackground = document.getElementsByClassName('back')[0];
   pictureBackground.remove();
-};
+}

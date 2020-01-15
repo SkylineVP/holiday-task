@@ -6,6 +6,7 @@ window.onscroll = () => {
     document.getElementById("header").classList.remove("fixed");
   }
 };
+
 const menu = document.getElementById("menu");
 menu.onchange = () => {
   if (menu.checked) {
@@ -16,6 +17,7 @@ menu.onchange = () => {
     document.getElementById("navLabel").classList.remove("clickBtn");
   }
 };
+
 for (let element of document.querySelectorAll("ul.primaryNav li")) {
   element.onclick = () => {
     document.getElementsByTagName("nav")[0].classList.remove("open");
