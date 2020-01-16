@@ -62,7 +62,7 @@
     font-weight: 600;
     margin-top: 10px;
     text-transform: uppercase;
-    @media screen and (min-width: $lg) {
+    @media screen and (min-width: $sm) {
       margin-top: 20px;
     }
   }

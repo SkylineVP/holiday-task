@@ -41,8 +41,11 @@
   margin-bottom: 50px;
 
 
-  @media screen and (min-width: $md){
+  @media screen and (min-width: $md) {
     margin-bottom: 80px;
+  }
+  @media screen and (min-width: $lg) {
+    width: 33.3%;
   }
 
   h5 {
@@ -53,8 +56,10 @@
   }
 
 
-  li{
+  li {
     display: inline-block;
+    margin: 3px;
+    font-size: 15px;
   }
 
   a {
