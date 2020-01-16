@@ -1,3 +1,4 @@
+import './styles.scss';
 import {LINKS_ICON_MAP} from "../../Constants"
 
 export default function ( link ) {
